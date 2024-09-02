@@ -1,0 +1,108 @@
+<html>
+    <head>
+    	<title>Mr. Goderfarmer's Original Root Beer&trade;</title>
+    	<link rel="stylesheet" type="text/css" href="../res/styleInside.css">
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    	<script src="//cdnjs.cloudflare.com/ajax/libs/noisy/1.2/jquery.noisy.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
+        <script src="../res/jssor.slider.mini.js"></script>
+        <script>
+            jQuery(document).ready(function ($) {
+                var options = {
+                    $ArrowNavigatorOptions: {
+                        $Class: $JssorArrowNavigator$,
+                        $ChanceToShow: 1
+                    },
+                    $BulletNavigatorOptions: {
+                        $Class: $JssorBulletNavigator$,
+                        $ChanceToShow: 2
+                    },
+                    $ArrowKeyNavigation: true
+                };
+                var jssor_slider1 = new $JssorSlider$('slider_container', options);
+            });
+        </script>
+    	<script type="text/javascript">
+    		$(function() {
+    			$('body').noisy({
+				    'intensity' : 1, 
+				    'size' : 200, 
+				    'opacity' : 0.08, 
+				    'fallback' : '', 
+				    'monochrome' : false
+				}).css('background-color', '#EDEBDE');
+			});
+    	</script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-49211031-1', 'goderfarmers.com');
+          ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body>
+    	<div class="text">
+    		<h1>Inside The Bottle</h1>
+    		<h3>~ presented in 13 hipster-square pictures ~</h3>
+    		<div id="slider_container" style="position: relative; top: 0px; left: 50px; width: 600px; height: 600px;">
+                <div u="slides" style="position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 600px;">
+                    <div><img u="image" src="../res/image1.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image2.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image3.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image4.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image5.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image6.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image7.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image8.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image9.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image10.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image11.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image12.jpg" class="slider"/></div>
+                    <div><img u="image" src="../res/image13.jpg" class="slider"/></div>
+                </div>
+                <style>
+                    .jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn
+                    {
+                        position: absolute;
+                        cursor: pointer;
+                        display: block;
+                        background: url(../res/a12.png) no-repeat;
+                        overflow:hidden;
+                    }
+                    .jssora12l { background-position: -16px -37px; }
+                    .jssora12r { background-position: -75px -37px; }
+                    .jssora12l:hover { background-position: -136px -37px; }
+                    .jssora12r:hover { background-position: -195px -37px; }
+                    .jssora12ldn { background-position: -256px -37px; }
+                    .jssora12rdn { background-position: -315px -37px; }
+                </style>
+                <span u="arrowleft" class="jssora12l" style="width: 30px; height: 46px; top: 277px; left: 0px;"></span>
+                <span u="arrowright" class="jssora12r" style="width: 30px; height: 46px; top: 277px; right: 0px"></span>
+                <style>
+                    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av
+                    {
+                        background: url(../res/b05.png) no-repeat;
+                        overflow:hidden;
+                        cursor: pointer;
+                    }
+                    .jssorb05 div { background-position: -7px -7px; }
+                    .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+                    .jssorb05 .av { background-position: -67px -7px; }
+                    .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+                </style>
+                <div u="navigator" class="jssorb05" style="position: absolute; bottom: 16px; right: 196px;">
+                    <div u="prototype" style="POSITION: absolute; WIDTH: 16px; HEIGHT: 16px;"></div>
+                </div>
+            </div>
+            <p>on mobile - swipe to see next image<br/>on computer - use the arrow keys</p>
+    	</div>
+    	<div class="text footer">
+    		<hr />
+    		&copy; 2014 by the Brewmaster of Mr. Goderfarmer's Original Root Beer, <a href="mailto:brewmaster@goderfarmers.com">brewmaster@goderfarmers.com</a>
+    	</div>
+    </body>
+</html>

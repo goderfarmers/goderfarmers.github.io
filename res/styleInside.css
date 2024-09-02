@@ -1,0 +1,58 @@
+div.center
+{
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.text
+{
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lusitana', serif;
+}
+
+div.footer
+{
+	font-size:10pt;
+	text-align: right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+h1 {
+	margin-top: 40px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size:26pt;
+}
+
+h3
+{
+	margin-top:0px;
+	margin-bottom:40px;
+	font-weight: normal;
+	text-align: center;
+	font-size:13pt;
+}
+
+a
+{
+	color:DarkBlue;
+}
+
+img.slider
+{
+	width: 600px;
+	height: 600px;
+}
+
+p
+{
+	padding-top:20px;
+	text-align: center;
+	font-size:13pt;
+}

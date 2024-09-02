@@ -1,0 +1,49 @@
+div.center
+{
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.text
+{
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lusitana', serif;
+}
+
+div.footer
+{
+	font-size:10pt;
+	text-align: right;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+img.logo
+{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+h3
+{
+	margin-top:40px;
+	margin-bottom:0px;
+}
+
+p
+{
+	margin-top:8px;
+	margin-left:40px;
+	line-height:150%;
+	font-size:13pt;
+}
+
+a
+{
+	color:DarkBlue;
+}
